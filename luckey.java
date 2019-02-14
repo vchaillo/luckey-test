@@ -3,10 +3,9 @@ public class luckey {
 	public static void main(String[] args) {
 
 		if (args.length == 1) {
-			try {
-
-				int nb = Integer.parseInt(args[0]);
 			
+			try {
+				int nb = Integer.parseInt(args[0]);
 				if (isPrime(nb)) {
 					System.out.println(nb + " is Prime");
 				}
@@ -21,9 +20,6 @@ public class luckey {
 		else {
 			System.err.println("usage : java isPrime [int]");
 		}
-
-
-
 	}
 
 	public static boolean isPrime(int nb) {
