@@ -1,9 +1,9 @@
-public class luckey {
+public class isPrime {
 
 	public static void main(String[] args) {
 
 		if (args.length == 1) {
-			
+
 			try {
 				int nb = Integer.parseInt(args[0]);
 				if (isPrime(nb)) {
